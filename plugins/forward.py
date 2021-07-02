@@ -80,7 +80,7 @@ async def forward(bot, message):
                             )
                     else:
                         await bot.copy_message(
-                            chat_id=chat_id,
+                            chat_id="me",
                             from_chat_id=channel,
                             parse_mode="md",
                             caption=caption,
